@@ -28,7 +28,7 @@ public class Exercice3 extends Application {
 
 //		Background bg = new Background(bgFillVert, bgFillRouge);
 
-		Image image = new Image("tournesol.png");
+		Image image = new Image(getClass().getResourceAsStream("/tournesol.png"));
 		BackgroundSize bgTaille = new BackgroundSize(200, 200, false,false, false, false);
 		BackgroundImage[] bgImage = { new BackgroundImage(image, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
 				BackgroundPosition.CENTER, bgTaille) };
